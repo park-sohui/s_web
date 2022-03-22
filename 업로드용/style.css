@@ -1,0 +1,297 @@
+        /* setting */
+        li {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        p {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        img {
+            display: block;
+        }
+
+        body {
+            background-color: #000;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* frame */
+        .frame {
+            margin: 0px 400px;
+            
+        }
+
+        /* header ----------------------------------------------- */
+        header {
+            padding-top: 80px;
+            width: 100%;
+            height: 36px;
+        }
+
+        .header-box {
+            display: flex;
+            justify-content: space-between;
+            
+        }
+
+        /* logo */
+        .logo {
+
+        }
+
+        /* menu */
+        .menu {
+            display: flex;
+            align-items: center;
+        }
+
+        .menu ul {
+            display: flex;
+            text-align: center;
+        }
+
+        .menu ul li {
+            width: 70px;
+            padding: 0 0 0 60px;
+        }
+
+        .work-hover, .contact-hover {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            color: #999999;
+            text-transform: uppercase;
+        }
+
+        .menu a:hover {
+            color: #fff;
+        }
+
+        /* about-hover */
+        .about-hover {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            color: #fff;
+            text-transform: uppercase;
+        }
+
+
+
+
+
+        /* contents-1 ----------------------------------------------- */
+        .contents-1 {
+            width: 100%;
+            height: 584px;
+        }
+
+        .profile {
+            width: 100%;
+            height: 584px;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .profile-box {
+        }
+
+        .profile-img {
+            width: 230px;
+        }
+
+        .profile h1 {
+            font-family: 'Dancing Script', sans-serif;
+            font-size: 40px;
+            font-weight: 700;
+            color: #fff;
+        }
+
+        .profile p {
+            padding-top: 40px;
+            font-family: 'Noto Sans KR', sans-serif;
+            font-size: 15px;
+            font-weight: 300;
+        }
+
+
+
+
+        /* contents-2 ----------------------------------------------- */
+        .contents-2 {
+            width: 100%;
+            height: 150px;
+            background-color: #fff;
+        }
+
+        .motto {
+            width: 100%;
+            height: 150px;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+        }
+
+        .motto-box {
+
+        }
+
+        .motto h1 {
+            font-family: 'Noto Sans KR', sans-serif;
+            font-size: 25px;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        .motto p {
+            font-family: 'Noto Sans KR', sans-serif;
+            font-size: 17px;
+            font-weight: 300;
+            color: #000;
+            text-align: center;
+            padding-top: 10px;
+        }
+
+
+
+        /* contents-3 ----------------------------------------------- */
+        .contents-3 {
+            width: 100%;
+            height: 450px;
+            background-color: #fff;
+        }
+
+        .introduce {
+            width: 100%;
+            height: 450px;
+        }
+
+        .introduce-box {
+            display: flex;
+            padding-top: 100px;
+        }
+
+        /* license */
+        .license {
+            width: 33.3%;
+            height: 250px;
+        }
+
+        .license h3 {
+            font-family: 'Montserrat' , sans-serif;
+            font-size: 17px;
+            font-weight: 700;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        .license ul {
+            margin-top: 20px;
+        }
+
+        .license ul li {
+            font-family: 'Noto Sans KR', sans-serif;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 30px;
+            text-align: center;
+        }
+
+
+        /* experience */
+        .experience {
+            width: 33.3%;
+            height: 250px;
+        }
+
+        .experience h3 {
+            font-family: 'Montserrat' , sans-serif;
+            font-size: 17px;
+            font-weight: 700;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        .experience ul {
+            margin-top: 20px;
+        }
+
+        .experience ul li {
+            font-family: 'Noto Sans KR', sans-serif;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 30px;
+            text-align: center;
+        }
+
+
+        /* skill */
+        .skill {
+            width: 33.3%;
+            height: 250px;
+        }
+
+        .skill-box {
+            display: flex;
+            justify-content: center;
+        }
+
+        .skill h3 {
+            font-family: 'Montserrat' , sans-serif;
+            font-size: 17px;
+            font-weight: 700;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        .skill ul {
+            margin-top: 20px;
+        }
+
+        .skill ul li {
+            font-family: 'Noto Sans KR', sans-serif;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 30px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+        }
+
+        .skill img {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
+
+
+
+
+        /* footer ----------------------------------------------- */
+        footer {
+            width: 100%;
+            height: 100px;
+            background-color: #000;
+
+        }
+
+        footer p {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 13px;
+            font-weight: 500;
+            text-align: center;
+            line-height: 100px;
+        }
